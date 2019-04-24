@@ -53,7 +53,7 @@ function showQuestions(questions, quizContainer){
 		// for each available answer to this question...
 		for(letter in questions[i].answers){
 
-			// ...add an html radio button
+			//  html radio button
 			answers.push(
 				'<label>'
 					+ '<input type="radio" name="question'+i+'" value="'+letter+'">'
@@ -63,7 +63,7 @@ function showQuestions(questions, quizContainer){
 			);
 		}
 
-		// add this question and its answers to the output
+		//  question and its answers to the output
 		output.push(
 			'<div class="question">' + questions[i].question + '</div>'
 			+ '<div class="answers">' + answers.join('') + '</div>'
@@ -137,8 +137,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("demo").innerHTML = days + "d" + hours + "h"
+  + minutes + "m" + seconds + "s";
     
   
   if (distance < 0) {
