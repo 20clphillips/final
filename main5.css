@@ -1,14 +1,11 @@
 body{
-    background-image: url("images/goober.jpg");
+	background-image: url("images/extra1.gif");
 	background-position: 50% 95%;
-	
+/* background-color: #52a9ff; */
 }
 
 h1{
     color: blueviolet;
-}
-p{
-    color: orange;
 }
 
 
@@ -194,27 +191,8 @@ width:96px;
 	top:1px;
 }
 
-.quiz-container{
-	position: relative;
-	top:180px;
-	left:100px;
-}
-
 p {
 	text-align: center;
 	font-size: 60px;
 	margin-top: 0px;
   }
-
-
-  
-.casino1{
-	height: 800px;
-	width:600px;
-}
-
-.carls{
-	height:550px;
-	width:750px;
-}
-
